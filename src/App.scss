@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+  .heropage {
+    flex-direction: column;
+    height: 100%;
+
+    .screen1 {
+      flex-direction: column;
+      gap: 50px;
+      position: relative;
+
+      .coder {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+        align-items: center;
+
+        h1 {
+          font-size: 28px;
+          width: 90%;
+        }
+
+        p {
+          width: 90%;
+          font-size: 14px;
+        }
+
+        .projectlist {
+          width: 280px;
+          height: 45px;
+          font-size: 14px;
+        }
+
+        .shape1{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: #EAA614;
+        z-index: 1;
+        top: 100px;
+        right: 10px;
+      }
+      .shape2{
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        background: #EAA614;
+        z-index: 1;
+        top: -100px;
+        left: -38%;
+      }
+      }
+
+      .design {
+        flex-direction: row;
+        width: 100%;
+        height: 50vh;
+        justify-content: center;
+        column-gap: 0px;
+
+        .box,
+        .box2 {
+          height: 100%;
+          width: 100%;
+        }
+
+        .scroll-container,
+        .scroll-container2 {
+          height: 100%;
+        }
+
+        .scroll-content,
+        .scroll-content2 {
+          row-gap: 10px;
+        }
+      }
+    }
+
+    .person {
+      position: absolute;
+      height: 250px;
+      margin-top: 1rem;
+      bottom: 0;
+    }
+
+    .glass-card {
+      position: absolute;
+      width: 80%;
+      column-gap: 20px;
+      height: 40px;
+      font-size: 12px;
+      margin: 1rem auto 0 auto;
+      bottom: 0;
+    }
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    padding: 1rem;
+
+    .nav-links {
+      transform: scaleY(0);
+      &.open {
+        transform: scaleY(1);
+      }
+    }
+  }
+}
