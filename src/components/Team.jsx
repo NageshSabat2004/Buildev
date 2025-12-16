@@ -6,7 +6,7 @@ const Team = () => {
       name: 'Nagesh Sabat',
       role: 'Developer / Designer',
       info: 'Hi, I’m a passionate Full Stack Web Developer specializing in HTML, CSS, JS, React, PHP, MySQL, and SCSS. I create modern, responsive websites and applications that help businesses grow their digital presence. From frontend design to backend development, I deliver clean code with a focus on performance and user experience..',
-      image: '/NageshSabat-img.jpg'
+      image: '/NageshSabat.png'
     },
     {
       name: 'Hiren Panchal',
